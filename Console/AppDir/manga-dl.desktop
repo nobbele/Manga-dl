@@ -1,0 +1,9 @@
+# Desktop Entry Specification: https://standards.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html
+[Desktop Entry]
+Type=Application
+Name=manga-dl
+Comment=Downloads manga
+Icon=manga-dl
+Exec=manga-dl.Console
+Terminal=true
+Categories=ConsoleOnly;
