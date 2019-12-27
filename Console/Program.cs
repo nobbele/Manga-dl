@@ -33,7 +33,7 @@ namespace manga_dl.Console
                     if(args.Length < 2)
                         Help();
                     else
-                        Manga(args[1], args.Length >= 3 ? args[2] : defaultApi, args.Length >= 4 ? args[3] : false);
+                        Manga(args[1], args.Length >= 3 ? args[2] : defaultApi, args.Length >= 4 ? bool.Parse(args[3]) : false);
                 } break;
                 default: {
                     Help();
